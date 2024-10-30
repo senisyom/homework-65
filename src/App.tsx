@@ -9,7 +9,8 @@ const App = () => {
         <ToolBar />
       </header>
       <Routes>
-        <Route path="/pages" element={<Pages />} />
+        <Route path="/pages/*" element={<Pages />} />
+        <Route path="/pages/admin" element={<Edit />} />
       </Routes>
     </>
   );
