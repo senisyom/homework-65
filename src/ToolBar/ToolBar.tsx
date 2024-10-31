@@ -8,17 +8,17 @@ const ToolBar = () => {
 
         <ul className="navbar-nav mr-auto flex-row gap-2 flex-nowrap">
           <li className="nav-item">
-            <NavLink to="/pages/Home" className="nav-link">
+            <NavLink to="/" className="nav-link">
               Home
             </NavLink>
           </li>
           <li className="nav-item">
-            <NavLink to="/pages/About" className="nav-link">
+            <NavLink to="/pages/about" className="nav-link">
               About
             </NavLink>
           </li>
           <li className="nav-item">
-            <NavLink to="/pages/Contacts" className="nav-link">
+            <NavLink to="/pages/contacts" className="nav-link">
               Contacts
             </NavLink>
           </li>
@@ -28,7 +28,7 @@ const ToolBar = () => {
             </NavLink>
           </li>
           <li className="nav-item">
-            <NavLink to="pages/Admin" className="nav-link">
+            <NavLink to="/pages/admin" className="nav-link">
               Admin
             </NavLink>
           </li>
